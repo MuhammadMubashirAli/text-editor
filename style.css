@@ -1,0 +1,17 @@
+
+.button-div{
+
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.btn{
+margin-left: 4px;
+height: 20px;
+background-color: lightblue;
+border: 1px solid black;
+}

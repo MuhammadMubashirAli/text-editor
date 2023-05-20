@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="btn1">
+    <h2 style="text-align: center;">Text Editor</h2>
+    <div class="button-div">
+        <button class="btn" id="btn1"> Bold</button>
+        <button class="btn" id="btn2">Italic</button>
+        <button class="btn" id="btn3">Center</button>
+        <button class="btn" id="btn4"> Right </button>
+        <button class="btn" id="btn5">Left</button>
+        <button class="btn" id="btn6">UnderLine</button>
+        <button class="btn" id="btn7">Reset</button>
+
+        <select class="btn" id="color" name="color" onclick="setColor()">
+            <option value="color" selected="selected">color</option>
+            <option value="black">black</option>
+            <option value="red">red</option>
+            <option value="blue"> blue</option>
+            <option value="fuchsia">Fuchsia</option>
+            <option value="green"> green</option>
+            <option value="maroon">maroon</option>
+            <option value="yellow">yellow</option>
+            <option value="orange">orange</option>
+            <option value="pink">pink</option>
+            <option value="purple">purple</option>
+            <option value="aqua">aqua</option>
+        </select>
+
+    </div>
+
+    <br>
+    <div style="display: flex; justify-content: center;",>
+        <textarea placeholder="Write something" name="name" id="bold" cols="60" rows="20"></textarea>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
